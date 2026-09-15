@@ -1,0 +1,66 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!config/.env.example
+*.secret
+*.secrets
+
+# Logs and runtime output
+*.log
+logs/
+runtime-logs/
+
+# Local databases and generated application data
+*.db
+*.sqlite
+*.sqlite3
+data/*
+
+# JavaScript dependencies and generated frontend builds
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.code-workspace
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary/editor swap files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
